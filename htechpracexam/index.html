@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTECH EXAM</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="appContainer">
+        <div class="headerContainer">
+            <header>
+                <nav class="headerNav">
+                    <div class="logo">
+                        <h4 class="logoTitle">Travel<span>Blog</span></h4>
+                    </div>
+                    <div class="toggle" onclick="toggleMenu()">
+                        <div class="hamburger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <ul class="navLinks" id="navLinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                    <ul class="socialLinks" id="socialLinks">
+                        <li><a href="#" class="facebook"></a></li>
+                        <li><a href="#" class="twitter"></a></li>
+                        <li><a href="#" class="instagram"></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="heroContent">
+                <section class="presentation">
+                    <div class="intro-text">
+                        <h1>Where will you go next?</h1>
+                        <input type="text" placeholder="Search your option" class="searchField">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum, reiciendis fugit fuga
+                            deserunt tempora officiis error repellat maxime sapiente veniam dolores veritatis iusto ad
+                            vitae accusantium nobis inventore, ipsum neque similique mollitia provident. Quae
+                            perferendis eaque esse magnam veritatis optio odit id sunt laudantium nesciunt? Suscipit
+                            culpa quod unde!</p>
+                        <a href="#" class="btn">Let's Go</a>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <section>
+        <div class="category">
+            <h1 class="categoryTitle">Choose A Category</h1>
+        </div>
+    </section>
+    
+    <div class="carousel-container">
+        <div class="carousel"></div>
+        <div class="carousel-button-container">
+            <button class="carousel-button prev" onclick="prevSlide()">&#10229;</button> 
+            <button class="carousel-button next" onclick="nextSlide()">&#10230;</button> 
+        </div>
+    </div>
+    
+    <div class="carousel-indicators"></div>
+    
+    <section class="featured">
+        <h1 class="featuredTitle">Featured Posts</h1>
+        <div class="featuredPosts">
+            <div class="post">
+                <img src="/assets/images/card-1.jpg" alt="Featured 1">
+                <div class="postInfo">
+                    <h2>Lorem ipsum dolor sit amet.</a></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium eius iusto praesentium odio
+                        sequi atque doloremque expedita mollitia. Dolor, beatae!</p>
+                    <a href="#" class="btn">Solo Travel By Sample</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/assets/images/card-2.jpg" alt="Featured 2">
+                <div class="postInfo">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium eius iusto praesentium odio
+                        sequi atque doloremque expedita mollitia. Dolor, beatae!</p>
+                    <a href="#" class="btn">Solo Travel By Sample</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/assets/images/card-3.jpg" alt="Featured 3">
+                <div class="postInfo">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium eius iusto praesentium odio
+                        sequi atque doloremque expedita mollitia. Dolor, beatae!</p>
+                    <a href="#" class="btn">Solo Travel By Sample</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/assets/images/card-4.jpg" alt="Featured 3">
+                <div class="postInfo">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium eius iusto praesentium odio
+                        sequi atque doloremque expedita mollitia. Dolor, beatae!</p>
+                    <a href="#" class="btn">Solo Travel By Sample</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/assets/images/card-5.jpg" alt="Featured 3">
+                <div class="postInfo">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium eius iusto praesentium odio
+                        sequi atque doloremque expedita mollitia. Dolor, beatae!</p>
+                    <a href="#" class="btn">Solo Travel By Sample</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/assets/images/card-6.jpg" alt="Featured 3">
+                <div class="postInfo">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium eius iusto praesentium odio
+                        sequi atque doloremque expedita mollitia. Dolor, beatae!</p>
+                    <a href="#" class="btn">Solo Travel By Sample</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="textOutsideVideo">
+            <h1>World's Best Places To Visit</h1>
+        </div>
+        <div class="videoContainer">
+            <iframe src="https://www.youtube.com/embed/6m57KaHerG0" title="Best Places To Visit in Philippines 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer class="footerContent">
+        <div>
+           <span>&#169; 2020 TravelBlog All Rights Reserved</span>
+        </div>
+        <div class="footerPrivacy">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>
